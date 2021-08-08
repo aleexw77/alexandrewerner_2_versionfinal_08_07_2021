@@ -1,0 +1,977 @@
+html , body {
+    font-family: Raleway;
+    margin-left: 10%;
+    margin-right: 10%;
+      
+}  
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.decoNone {
+    text-decoration: none;
+}
+
+.texteGras {
+    font-weight: bold;
+}
+
+.colorBleu {
+    color: #0065fc;
+}
+
+.colorBleuClair {
+    color:#deebff
+}
+
+.colorGris {
+    color:#f2f2f2
+}
+
+.backBleu {
+    background-color: #0065fc;
+}
+
+.backBleuClair {
+    background-color: #deebff;
+}
+
+.backGris {
+    background-color:#f2f2f2
+}
+.bordureNone
+{
+    border:none
+}
+
+/*NAV*/
+
+.sizeNav {
+    height: 100px;
+}
+
+.sizeLiens {
+    width: 35%;
+}
+
+.sizeLien {
+    width: 140px;
+    height: 99px;
+}
+
+
+.colorLien2 {
+    color:black;
+}
+
+
+.bordureNav:hover {
+    border-top: 1px solid blue;
+}
+
+
+.margPic {
+    margin-bottom: 7px;
+}
+
+/*HEADER*/
+
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+}
+
+.iconSize {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+
+.recherche {
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.paddingSearch {
+    padding-left: 20px;
+}
+
+.buttonSearch {
+    height: 50px;
+    width: 120px;
+    color:white;
+    cursor:pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+.deskNone {
+    display: none;
+}
+
+
+/* Filtres */
+
+.margF {
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.alignFiltre {
+display: flex;
+align-items: center;
+}
+
+.margright {
+    margin-right: 20px;
+}
+
+.espacefilter {
+    border : 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.scalefiltres:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #0065fc;
+}
+
+
+.IconsBack {
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+
+.paddingtexte {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.marginicons {
+    margin-right: 10px;
+}
+
+.paddingcenter {
+    padding-left: 15px;
+}
+
+
+.borderF {
+    border:2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px; 
+    margin-right: 20px;
+}
+
+
+/* hebergementpop*/
+.paddingtext {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.marginrightinfo {
+    margin-right: 10px;
+}
+
+.colorinfo {
+    color: #0065fc;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    border: 2px solid #f2f2f2;
+
+}
+
+.sizeHebergement {
+    height: 900px;
+    width: 70%;
+    border-radius: 10px;
+    margin-right: 20px;
+     
+}
+
+.sizepopulaires {
+    height: 900px;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 20px;
+  
+}
+
+.imgamina {
+    background-image: url("img/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 25px 25px 0 0;
+}
+
+.sizeimg {
+    width: 100%;
+    height: 150px;
+    border-radius: 25px 25px 0 0;
+
+}
+
+.tailledivhebergement {
+    width: 30%;
+    height: auto; 
+}
+
+.tailledivhebergement:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+.padTexte {
+    padding-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.marginbot {
+    margin-top: 45px;
+}
+
+.marginbotdiv {
+    margin-bottom: 50px;
+}
+
+.paddingleftpopulaire {
+    padding-left: 1px;
+}
+
+
+/*populaires*/
+
+
+.sizediv:hover {
+cursor: pointer;
+transform: scale(1.1);
+}
+
+.paddingbottompop {
+    padding-bottom: 20px;
+}
+
+
+.sizediv {
+    width: 90%;
+    height: auto;
+     
+}
+
+.paddingdesktoptitre {
+    padding-left: 35px;
+}
+
+.paddinglogopopudesk {
+    padding-right: 25px;
+}
+
+.backback {
+    
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+
+.sizeimgpop {
+    height: 200px;
+    width: 100%;
+    border-radius: 25px 0 0 25px;
+    padding-top: 3px;
+    padding-left: 2px;
+}
+
+.tailledivpopuimg {
+    width: 60%;
+    height: auto;
+  }
+
+  .taileldivpopu2 {
+    height: auto;
+    width: 52%;
+    
+}
+
+.paddingbottompop {
+    padding-bottom: 20px;
+}
+
+
+.marginTextepop {
+ margin-right: 10px;
+}
+
+
+.align1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.heightop {
+    margin-top: 35px;
+}
+
+.paddingimgright {
+    padding-right: 20px;
+}
+
+.topdiv {
+    height: 50px;
+}
+
+.direction {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+
+.marginleft1 {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.paddingleft2 {
+    padding-left: 5px;
+}
+
+
+.afficherplusposition {
+    padding-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    
+}
+
+.positiontexteHeberg {
+    padding-left: 10px;
+}
+
+.paddingchart {
+    padding-right: 80px;
+}
+
+.colorstarsblue {
+    color: #0065fc;
+}
+
+.colorstarsgrey {
+    color : grey;
+}
+
+  
+.marginlespluspopulaires {
+    margin-left: 50px;
+    
+}
+
+.paddingstars1 {
+    padding-bottom: 65px;
+}
+
+.paddingstars2 {
+    padding-bottom: 45px;
+}
+
+.marginpop2 {
+    margin-top: 50px;
+    height: auto;
+}
+
+.colonAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+/*Activités*/
+
+.margmarseille {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.blocActivités {
+    width: 100%;
+    height: 600px;
+}
+
+.columnBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tailediv {
+    width: 100%;
+    height: 600px;
+}
+
+ .colonCenter:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+.colonCenter {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.hauteurtitle {
+    height: 75px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.paddingtexteact {
+  padding-left: 10px;  
+}
+
+.borderimg {
+  border-radius: 25px 25px 0 0;
+}
+
+.borderact {
+    box-shadow: 0px 0px 10px rgb(189, 189, 189);
+    width: 100%;
+}
+
+.margindivact {
+ margin-right: 50px;
+}
+
+.imgpomègues {
+    background-image: url(img/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 270px;
+}
+
+.imgdivactivites{
+    width: 100%;
+}
+
+.imgsizeactivitesdesKtop{
+    width: 100%;
+    height: 600px;
+}
+
+.imgsizeactivitesdesKtop1{
+    width: 100%;
+    height: 270px;
+}
+
+.imgsizeactivitesdesKtop2{
+    width: 100%;
+    height: 165px;
+}
+
+.imgsizeactivitesdesKtop3{
+    width: 100%;
+    height: 600px;
+}
+
+.imgsizeactivitesdesKtop4{
+    width: 100%;
+    height: 200px;
+}
+
+.imgsizeactivitesdesKtop5{
+    width: 100%;
+    height: 200px;
+}
+
+
+/*FOOTER*/
+
+.sizeFooter {
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+    background-color: #f2f2f2;
+    
+}
+
+.columnBetweenfoot {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+  .paddingleffooter {
+      padding-left: 35px;
+  }
+
+  .alignitemflexstart {
+     align-items: flex-start;
+  }
+
+
+
+.divfootersize {
+    height: 300px;
+    width: 75%;
+}
+
+.paddingrightfoot {
+    padding-right: 800px;
+}
+
+
+
+@media screen and (max-width: 1025px) {
+    
+     html,body {
+         width: 100%;
+         margin: auto;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+     
+     }
+
+     /*navBar*/
+     
+     .margPic {
+         margin-left: 20px;
+         margin-top: 10px;
+     }
+
+
+     .bordureNav {
+         border-bottom: 1px solid blue;
+         
+         border-top: none;
+     }
+
+     .bordureNavactivités {
+         border-bottom: 1px solid grey;
+            
+     }
+
+     .navresponsive {
+        flex-wrap: wrap;
+        
+         
+     }
+
+     .absoluteinscrire {
+         position: absolute;
+         top: -10px;
+         right: 1px;
+         padding-right: 100px;  
+         
+     }
+
+     .sizeLiens {
+         width: 100%;
+         
+     }
+
+    
+
+     .divheberg {
+         width: 50%;
+         
+     }
+
+    
+     .divactivitésresp {
+         width: 50%;
+           
+     }
+         
+     .paddinggeneral {
+         padding-left: 20px;
+     }
+
+     
+
+     .sizeNav {
+         height: auto;
+     }
+
+     /*HEADER*/
+
+     .buttonSearch {
+         height: 50px;
+         width: 50px;
+         border-radius: 10px 10px 10px 10px;
+         
+     }
+
+     .displaynone {
+         display: none;
+     }
+
+     .deskNone {
+         display: block;
+     }
+
+     .bordureSearch {
+        width: 330px;
+        border-radius: 10px;
+        border: 0.5px solid #f2f2f2;
+        
+     }
+
+     .marginheader {
+         margin-left: 20px;
+         
+     }
+
+    
+     /*Filtres*/
+
+     .flexwrapfiltres {
+         flex-wrap:wrap;
+          
+     }
+
+     .postionrelative {
+         position: relative;  
+         
+     }
+
+     .positionabosulute {
+         position: absolute;
+         top: -45px;
+         padding-left: 5px;
+          
+     }
+
+     .marGefiltresreponsive {
+         margin-top: 20px;
+     }
+
+
+    .reversediv {
+      flex-direction: column-reverse;
+      height: auto;
+
+    }
+
+
+    .reverseheberg {
+        flex-direction: column;
+        height: auto;
+        
+          
+    }
+    .backNoGrey {
+        background-color: white;
+    }
+
+    
+
+    .heightreponsive {
+        height: auto;
+    }
+
+    
+
+    /*popoulaires*/
+
+    .sizeimgpop {
+        max-width: 90%;
+    }
+    
+    .sizepopulaires {
+       width: 100%;
+        margin: auto;
+    }
+
+    .tailediv{
+        width: 100%;
+    }
+
+    .sizediv {
+        width: 80%;
+    }
+
+    .tailledivpopuimg {
+        width: 35%;
+    }
+
+    .responsivetitre {
+        justify-content: space-between;
+    }
+
+    .paddingtittre {
+        padding-left: 50px;
+    }
+
+    .paddinglogo {
+        padding-right: 45px;
+    }
+
+    
+    /*Hebergement*/
+       
+    .sizeHebergement {
+        width: 100%;
+        margin: auto;
+        
+    }
+
+    .tailledivhebergement {
+        width: 80%;
+        height: auto;
+        margin-bottom: 25px; 
+    }
+
+    .marginbotdiv {
+        margin: 0;
+    }
+
+
+    .backbackresp { 
+         border-radius: 25px;
+         box-shadow: 0px 0px 10px rgb(189, 189, 189);
+           
+    }
+
+    .sizeimg {
+        width: 100%;
+        height: 280px;
+        
+    }
+
+    .paddingresponsivehebergtitre {
+        padding-left: 100px;
+    }
+
+    .afficherplusposition {
+        padding-left: 105px;
+    }
+
+    /*Activités*/
+
+    .imgsizeactivites {
+        height: 300px;
+        width: 80%;
+    }
+
+
+    .widthact {
+      width: 100%;
+    }
+
+    .blocActivités {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .margindivact {
+        width: 100%;
+       margin: auto;
+    }
+
+    .borderact {
+        width: 80%;
+        box-shadow: 0px 0px 10px rgb(189, 189, 189);
+        
+    }
+
+    .marginbottomact {
+        margin-bottom: 25px;
+    }
+
+    .paddingactivitéstitreresp {
+        padding-left: 105px;
+    }
+
+    
+
+    /*FOOTER*/
+
+    .columNrespfooter {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding-left: 100px;
+    
+    }
+
+    
+    .sizeFooter {
+        height: auto;
+    }
+
+    .paddingleffooter {
+        padding: 0;
+    }
+
+    
+    .columnBetweenfoot {
+     align-items: flex-start;
+    }
+
+    .marginTexte1 {
+        margin-bottom: -1px;
+    }
+
+
+}
+
+@media screen and (max-width: 770px) {
+  
+ /*NAV*/
+
+ .absoluteinscrire {
+    position: absolute;
+    top: -10px;
+    right: 1px;
+    padding-right: 90px;  
+    
+}
+
+
+
+  /*Hebergement*/
+
+  .paddingresponsivehebergtitre {
+    padding-left: 80px;
+}
+
+
+
+  /*POPULAIRES*/
+
+  .paddingtittre {
+      padding-left: 40px;
+  }
+
+  .paddinglogo {
+    padding-right: 35px;
+}
+
+  /*Activités*/
+
+  .paddingactivitéstitreresp {
+    padding-left: 85px;
+}
+
+
+   /*FOOTER*/
+   
+    .columNrespfooter {
+        padding-left: 80px;
+    } 
+    
+    
+}
+
+
+
+@media screen and (max-width: 415px) {
+
+/*NAV*/
+
+.absoluteinscrire {
+    position: absolute;
+    top: -10px;
+    right: 1px;
+    padding-right: 20px;  
+    justify-content: flex-end;
+}
+
+
+/*Hebergement*/
+
+.paddingresponsivehebergtitre {
+    padding-left: 55px;
+}
+
+
+  /*POPULAIRES*/
+
+  .paddingtittre {
+      padding-left: 25px;
+  }
+
+  .paddinglogo {
+    padding-right: 20px;
+}
+
+.tailledivpopuimg {
+    width: 100%;
+    height: auto;
+  }
+
+  .sizeimgpop {
+    height: 200px;
+    width: 100%;
+    border-radius: 25px 0 0 25px;
+    padding-top: 3px;
+    padding-left: 2px;
+}
+
+.marginTextepop {
+    margin: 0;
+}
+
+
+  /*Activités*/
+
+  .paddingactivitéstitreresp {
+    padding-left: 50px;
+}
+
+
+   /*FOOTER*/
+   
+    .columNrespfooter {
+        padding-left: 50px;
+    } 
+
+
+
+}
+
+
+
+
