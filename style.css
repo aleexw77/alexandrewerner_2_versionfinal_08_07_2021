@@ -271,6 +271,14 @@ align-items: center;
     padding-left: 1px;
 }
 
+.paddingtextehebergresp {
+   padding-bottom: 15px;
+   margin: auto;
+  
+   
+   
+}
+
 
 /*populaires*/
 
@@ -321,8 +329,12 @@ transform: scale(1.1);
   }
 
   .taileldivpopu2 {
-    height: auto;
+    height: 200px;
     width: 52%;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    
     
 }
 
@@ -421,6 +433,34 @@ transform: scale(1.1);
     justify-content: space-around;
 }
 
+.paddingpopulairesteXte {
+    padding-left: 5px;
+    
+    
+    
+    
+
+    
+    
+}
+
+.marginautotexte {
+    margin: auto;
+    
+}
+
+.paddingetoiles1 {
+    padding-left: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.paddingstars23 {
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+
 
 /*Activités*/
 
@@ -465,7 +505,7 @@ align-items: center;
 }
 
 .paddingtexteact {
-  padding-left: 10px;  
+    padding-left: 20px;
 }
 
 .borderimg {
@@ -475,6 +515,11 @@ align-items: center;
 .borderact {
     box-shadow: 0px 0px 10px rgb(189, 189, 189);
     width: 100%;
+    display: flex;
+    align-items: center;
+    
+
+    
 }
 
 .margindivact {
@@ -527,9 +572,9 @@ align-items: center;
 /*FOOTER*/
 
 .sizeFooter {
-    margin-top: 80px;
+    margin-top: 35px;
     width: 100%;
-    height: 400px;
+    height: 350px;
     background-color: #f2f2f2;
     
 }
@@ -539,6 +584,8 @@ align-items: center;
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
+    height: auto;
+    
 }
 
   .paddingleffooter {
@@ -554,11 +601,54 @@ align-items: center;
 .divfootersize {
     height: 300px;
     width: 75%;
+    ;
+    
 }
 
 .paddingrightfoot {
     padding-right: 800px;
 }
+
+.marginTexte1 {
+    margin-bottom: -2px;
+}
+
+
+
+
+@media screen and (max-width: 2015px) {
+
+.fontsizeresposive {
+    font-size: 22px
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 1920px) {
+
+    html,body {
+        margin: auto;
+        width: 100%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1290px) {
+
+.fontsizereduce {
+    font-size: 18px;
+}
+
+}
+
+
+
 
 
 
@@ -722,6 +812,8 @@ align-items: center;
     .sizepopulaires {
        width: 100%;
         margin: auto;
+        
+        
     }
 
     .tailediv{
@@ -729,11 +821,13 @@ align-items: center;
     }
 
     .sizediv {
-        width: 80%;
+        width: 90%;
+        
+        
     }
 
     .tailledivpopuimg {
-        width: 35%;
+        width: 30%;
     }
 
     .responsivetitre {
@@ -741,11 +835,16 @@ align-items: center;
     }
 
     .paddingtittre {
-        padding-left: 50px;
+        padding-left: 30px;
     }
 
     .paddinglogo {
-        padding-right: 45px;
+        padding-right: 30px;
+    }
+
+    .fonsizeipadpro {
+        font-size: 25px;
+        font-weight: bold;
     }
 
     
@@ -758,7 +857,7 @@ align-items: center;
     }
 
     .tailledivhebergement {
-        width: 80%;
+        width: 90%;
         height: auto;
         margin-bottom: 25px; 
     }
@@ -776,23 +875,22 @@ align-items: center;
 
     .sizeimg {
         width: 100%;
-        height: 280px;
-        
+        height: 250px;
     }
 
     .paddingresponsivehebergtitre {
-        padding-left: 100px;
+        padding-left: 50px;
     }
 
     .afficherplusposition {
-        padding-left: 105px;
+        padding-left: 70px;
     }
 
     /*Activités*/
 
     .imgsizeactivites {
         height: 300px;
-        width: 80%;
+        width: 90%;
     }
 
 
@@ -811,7 +909,7 @@ align-items: center;
     }
 
     .borderact {
-        width: 80%;
+        width: 90%;
         box-shadow: 0px 0px 10px rgb(189, 189, 189);
         
     }
@@ -821,7 +919,7 @@ align-items: center;
     }
 
     .paddingactivitéstitreresp {
-        padding-left: 105px;
+        padding-left: 70px;
     }
 
     
@@ -832,7 +930,7 @@ align-items: center;
         flex-direction: column;
         height: auto;
         align-items: flex-start;
-        padding-left: 100px;
+        padding-left: 60px;
     
     }
 
@@ -874,7 +972,16 @@ align-items: center;
   /*Hebergement*/
 
   .paddingresponsivehebergtitre {
-    padding-left: 80px;
+    padding-left: 45px;
+}
+
+.afficherplusposition {
+    padding-left: 45px;
+}
+
+.sizeimg {
+    width: 100%;
+    height: 200px;
 }
 
 
@@ -882,24 +989,29 @@ align-items: center;
   /*POPULAIRES*/
 
   .paddingtittre {
-      padding-left: 40px;
+      padding-left: 20px;
   }
 
   .paddinglogo {
-    padding-right: 35px;
+    padding-right: 25px;
 }
 
   /*Activités*/
 
   .paddingactivitéstitreresp {
-    padding-left: 85px;
+    padding-left: 50px;
+}
+
+.imgsizeactivites {
+    height: 250px;
+    width: 90%;
 }
 
 
    /*FOOTER*/
    
     .columNrespfooter {
-        padding-left: 80px;
+        padding-left: 45px;
     } 
     
     
@@ -923,22 +1035,38 @@ align-items: center;
 /*Hebergement*/
 
 .paddingresponsivehebergtitre {
-    padding-left: 55px;
+    padding-left: 25px;
+}
+
+.tailledivhebergement {
+    width: 90%;
+    height: auto;
+    margin-bottom: 25px; 
+}
+
+.sizeimg {
+    width: 100%;
+    height: 150px;
+    
+}
+
+.afficherplusposition {
+    padding-left: 20px;
 }
 
 
   /*POPULAIRES*/
 
   .paddingtittre {
-      padding-left: 25px;
+      padding-left: 15px;
   }
 
   .paddinglogo {
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 .tailledivpopuimg {
-    width: 100%;
+    width:100%;
     height: auto;
   }
 
@@ -954,18 +1082,35 @@ align-items: center;
     margin: 0;
 }
 
+.taileldivpopu2 {
+    width: 90%;
+}
+
+.fontsizeiphone8 {
+    font-size: 20px;
+}
+
+.paddingiphonestars {
+    padding-bottom: 5px;
+}
+
 
   /*Activités*/
 
   .paddingactivitéstitreresp {
-    padding-left: 50px;
+    padding-left: 30px;
+}
+
+.imgsizeactivites {
+    height: 150px;
+    width: 90%;
 }
 
 
    /*FOOTER*/
    
     .columNrespfooter {
-        padding-left: 50px;
+        padding-left: 30px;
     } 
 
 
